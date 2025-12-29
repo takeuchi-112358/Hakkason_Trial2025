@@ -21,6 +21,11 @@ Arduino IDE
 - Arduino IDEをインストールし、.inoファイルをArduinoに書き込んでください。
 
 ## Usage
+ROSを使用するためのIPの設定を行います。
+```bash
+   ip a
+```
+
 catkin_ws以下にROS関係のパッケージがあるので以下はすべてこのディレクトリで行います。
 ```bash
    cd catkin_ws
