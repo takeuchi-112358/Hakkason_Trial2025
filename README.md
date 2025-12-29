@@ -43,3 +43,17 @@ catkin_ws以下にROS関係のパッケージがあるので以下はすべて�
 ```bash
    cd catkin_ws
 ```
+
+roscoreを起動したら別ターミナルでturtlebot_bringupを起動します。
+```bash
+   rosrun turtlebot3_bringup turtlebot3_robot.launch
+```
+更に別のターミナルを開き顔認識及び移動パッケージを起動してください。
+```bash
+   rosrun face_tracking face_tracking_node.py
+```
+```bash
+   rosrun pen_lavot PenLavot.py
+```
+顔認識についてはRealsenseの起動が必要になるので、face_tracking_node.pyを起動した際のターミナルの指示にしたがって起動してください。
+ディスプレイ、サーボモータに関してはROSトピックを受け取って自動的に動作します。
