@@ -38,12 +38,6 @@ ipを取得したら以下のコマンドでROS_MASTER_URIおよびROS_IPを設�
    export ROS_IP=(your ip)
    source ~/.bashrc
 ```
-
-catkin_ws以下にROS関係のパッケージがあるので以下はすべてこのディレクトリで行います。
-```bash
-   cd catkin_ws
-```
-
 roscoreを起動したら別ターミナルでturtlebot_bringupを起動します。
 ```bash
    rosrun turtlebot3_bringup turtlebot3_robot.launch
