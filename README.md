@@ -25,9 +25,20 @@ ROSを使用するためのIPの設定を行います。
 ```bash
    ip a
 ```
-で表示された無線LANのinetの欄のipアドレスを控えてください。(多くの場合wlan0が
-該当します多これをROS_IPに使用します。
-もしinetが表示されていない場合
+で表示された無線LANのinetの欄のipアドレスを控えてください。(多くの場合wlan0が該当します)これをROS_IPに使用します。
+もしinetが表示されておらずinet6のみが表示されている場合
+```bash
+   sudo dhclient -v wlan0
+```
+でinetのipを取得してください。
+
+ipを取得したら以下のコマンドでROS_MASTER_URIおよびROS_IPを設定します。
+```bash
+   export ROS_MASTER_URI=(your ip)
+   export ROS_IP=(your ip)
+   source ~/.bashrc
+```
+
 catkin_ws以下にROS関係のパッケージがあるので以下はすべてこのディレクトリで行います。
 ```bash
    cd catkin_ws
