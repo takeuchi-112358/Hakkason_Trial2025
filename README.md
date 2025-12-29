@@ -21,3 +21,7 @@ Arduino IDE
 - Arduino IDEをインストールし、.inoファイルをArduinoに書き込んでください。
 
 ## Usage
+catkin_ws以下にROS関係のパッケージがあるので以下はすべてこのディレクトリで行います。
+```bash
+   cd catkin_ws
+```
