@@ -5,10 +5,9 @@ realsense-ros/
 rosserial/
 turtlebot3/
 face_tracking/src
-face_tracking/CmakeLists.txt
-face_tracking/package.xml
 PenLavot/src
-PenLavot/CmakeLists.txt
-PenLavot/package.xml
 devel/
 build/
+CMakeLists.txt
+package.xml
+.catkin_workspace
