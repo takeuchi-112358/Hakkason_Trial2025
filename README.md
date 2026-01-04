@@ -1,6 +1,11 @@
 # Hakkason_Trial2025
 ハッカソントライアル2025参加作品
 
+## Functions
+ロボットがあなたの顔を覚えてあなたを追いかけます
+あなたが笑顔になるとロボットも喜びます(表情の変化、腕振り)
+親ペンギンに子ペンギンが追従します
+
 ### Equipment
 - Turtlebot3 burger
 - RaspberryPi4
