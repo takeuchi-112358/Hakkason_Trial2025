@@ -59,4 +59,7 @@ roscoreを起動したら別ターミナルでturtlebot_bringupを起動しま�
    rosrun pen_lavot PenLavot.py
 ```
 顔認識についてはRealsenseの起動が必要になるので、face_tracking_node.pyを起動した際のターミナルの指示にしたがって起動してください。
+
+追従は顔認識を行う必要があります。カメラに顔を近づけて認識させてください。
+
 ディスプレイ、サーボモータに関してはROSトピックを受け取って自動的に動作します。
