@@ -6,6 +6,8 @@
 あなたが笑顔になるとロボットも喜びます(表情の変化、腕振り)
 親ペンギンに子ペンギンが追従します
 
+## Get started
+
 ### Equipment
 - Turtlebot3 burger
 - RaspberryPi4
