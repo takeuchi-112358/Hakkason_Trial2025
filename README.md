@@ -1,7 +1,7 @@
 # Hakkason_Trial2025
 ハッカソントライアル2025参加作品
 
-## Demo
+## Demo movie
 https://youtu.be/rnxq2HEL0cA
 
 ## Functions
